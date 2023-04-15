@@ -5,104 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sing up</title>
+    <link rel="stylesheet" href="CSS/formularios.css">
+    <link rel="stylesheet" href="CSS/banners-footers.css">
 </head>
-<header style="background-color: rgba(31, 4, 4, 0.336); color: rgb(247, 244, 244); padding: 20px;">
-    <p style="text-align: center; font-size: 40px;">
-        Registrarse
-    </p>
+<header class="header-container">
+    <div class="logo-container">
+        <img class="logo" src="imagenes/balon_copia.png">
+    </div>
+    <nav class="nav">
+        <a class="nav-item" href="index.html">Inicio</a>
+        <a class="nav-item" href="Nosotros.html">Nosotros</a>
+        <a class="nav-item" href="logearse-ej.html">Logearse</a>
+    </nav>
 </header>
-<nav style="float: right; font-size: 20px;">
-    <a href="index.html" style="color: rgb(25, 5, 209);">Inicio||</a><a href="Logearse.html" style="color: rgb(13, 9, 231);">Logearse</a>
-</nav>
 <body style="background-image: url('imagenes/fondo2.png'); background-size: cover; background-repeat: no-repeat; margin: 0 auto;">
-    <br><br><fieldset style="background-color: rgba(0, 0, 0, 0.452);">
-        <table style="margin: auto;">
-            <form autocomplete="off" target="_self" method="post">
-                <tr style="font-size: 25px;">
-                    <th style="color: white;">
-                        <label for="nombre" style="float: right;">Nombre: </label>
-                    </th>
-                    <th>
-                        <input type="text" name="firstname" id="nombre" required autofocus>
-                    </th>
-                </tr>
-                <tr style="font-size: 25px;">
-                    <th style="color: white;">
-                        <label for="apellidos" style="float: right;">Apellidos: </label>
-                    </th>
-                    <th>
-                        <input type="text" name="lastname" id="apellidos" required>
-                    </th>
-                </tr>
-                <tr style="font-size: 25px;">
-                    <th style="color: white;">
-                        <label for="usuario" style="float: right;">Usuario: </label> 
-                    </th>
-                    <th>
-                        <input type="text" name="user" id="usuario" required>
-                    </th>
-                </tr>
-                <tr style="font-size: 25px;">
-                    <th style="color: white;">
-                        <label for="contraseña" style="float: right;">Contraseña: </label> 
-                    </th>
-                    <th>
-                        <input type="password" name="password" id="contraseña" required>
-                    </th>
-                </tr>
-                <tr style="font-size: 25px;">
-                    <th style="color: white;">
-                        <label for="correo" style="float: right;">Email: </label>
-                    </th>
-                    <th>
-                        <input type="email" name="email" id="correo" required>
-                    </th>
-                </tr>
-                <tr style="font-size: 25px;">
-                    <th style="color: white;">
-                        <label for="fechanacimiento" style="float: right;">Fecha de nacimiento: </label>
-                    </th>
-                    <th>
-                        <input type="date" name="birthday" id="fechanacimiento" required>
-                    </th>
-                </tr>
-                <tr style="font-size: 25px;">
-                    <th style="color: white;">
-                        <label for="edad" style="float: right;">Edad:</label>
-                    </th>
-                    <th>
-                        <input type="number" name="age" id="edad" min="1" max="99" required>
-                    </th>
-                </tr>
-                <tr style="font-size: 25px;">
-                    <th style="color: white;">
-                        <legend style="float: right;">Sexo:</legend>
-                    </th>
-                    <th style="color: white;">
-                        <div>
-                            <label for="masculino">Masculino</label>
-                            <input type="radio" name="gender" id="masculino" value="Masculino" required> 
-                        </div>
-                        <div>
-                            <label for="femenino">Femenino</label>
-                            <input type="radio" name="gender" id="femenino" value="Femenino" required> 
-                        </div>
-                        <div>
-                            <label for="otro">Otro</label>
-                            <input type="radio" name="gender" id="otro" value="Otros" required> 
-                        </div>
-                    </th>
-                </tr>
-                <tr style="font-size: 30px;">
-                    <th>
-                        <th style="color: white;">
-                            <button type="submit">Registrarse</button>
-                        </th>
-                    </th>
-                </tr>
-            </form>
-        </table>
-    </fieldset>
+    <div>
+        <form style="text-align: center;">  
+            <div class="container"> 
+
+                <label for="nombre">*Nombre: </label>
+                <input type="text" name="Name" id="nombre" required>
+
+                <label for="apellidos">*Apellidos: </label>
+                <input type="text" name="lastname" id="apellidos" required>
+
+                <label for="usuario">*Username : </label>   
+                <input type="text" name="username" id="usuario" required>  
+
+                <label for="contraseña">*Password : </label>   
+                <input type="password" name="password" id="contraseña" required>  
+
+                <label for="correo">*Correo: </label>
+                <input type="email" name="mail" id="correo" required>
+
+                <label for="fechanacimiento">*Fecha de Nacimiento: </label>
+                <input type="date" name="birthdate" id="fechanacimiento" required>
+
+                <br><br><input type="checkbox" checked="checked"> ¿Desea recibir un correo con las ultimas noticias sobre La Roja?  
+                <br><button type="submit">Registrarse</button>    
+
+            </div>   
+        </form>
+    </div>  
 </body>
 <footer>
     <br><br><p style="font-size: 20px; border: 5px solid black; padding: 20px; background-color: rgba(0, 0, 0, 0.719); text-align: center; color: white;">
