@@ -63,7 +63,7 @@ header, footer{
     grid-column: 1 / span 3;
 }
 
-@media all and (max-width: 600px){
+@media all (max-width: 600px){
     aside, article{
         grid-column: 1/3;
     }
