@@ -7,50 +7,56 @@
     <title>Sing up</title>
     <link rel="stylesheet" href="CSS/formularios.css">
     <link rel="stylesheet" href="CSS/banners-footers.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
-<header class="header-container">
-    <div class="logo-container">
-        <img class="logo" src="imagenes/balon_copia.png">
+
+<body style="background-image: url('imagenes/fondo2.png'); background-size: cover; background-repeat: no-repeat;">
+    <div class="grid-container">
+        <header class="header-container">
+            <div class="logo-container">
+                <img class="logo" src="imagenes/balon_copia.png">
+            </div>
+            <nav class="nav">
+                <a class="nav-item" href="index.html">Inicio</a>
+                <a class="nav-item" href="Nosotros.html">Nosotros</a>
+                <a class="nav-item" href="logearse.html">Logearse</a>
+            </nav>
+        </header>
+        <aside class="left" style="visibility: hidden;"></aside>
+        <article style="border: 0; background-color: rgba(240, 248, 255, 0);">
+            <form style="text-align: center;">  
+                <div class="container"> 
+
+                    <label for="nombre">*Nombre: </label>
+                    <input type="text" name="Name" id="nombre" required>
+
+                    <label for="apellidos">*Apellidos: </label>
+                    <input type="text" name="lastname" id="apellidos" required>
+
+                    <label for="usuario">*Username : </label>   
+                    <input type="text" name="username" id="usuario" required>  
+
+                    <label for="contraseña">*Password : </label>   
+                    <input type="password" name="password" id="contraseña" required>  
+
+                    <label for="correo">*Correo: </label>
+                    <input type="email" name="mail" id="correo" required>
+
+                    <label for="fechanacimiento">*Fecha de Nacimiento: </label>
+                    <input type="date" name="birthdate" id="fechanacimiento" required>
+
+                    <br><input type="checkbox" checked="checked"> ¿Desea recibir un correo con las ultimas noticias sobre La Roja?  
+                    <br><br><button type="submit">Registrarse</button>    
+
+                </div>   
+            </form>
+        </article>
+        <footer>
+            <p>
+                Todos los derechos reservados &copy;
+            </p>
+        </footer> 
     </div>
-    <nav class="nav">
-        <a class="nav-item" href="index.html">Inicio</a>
-        <a class="nav-item" href="Nosotros.html">Nosotros</a>
-        <a class="nav-item" href="logearse-ej.html">Logearse</a>
-    </nav>
-</header>
-<body style="background-image: url('imagenes/fondo2.png'); background-size: cover; background-repeat: no-repeat; margin: 0 auto;">
-    <div>
-        <form style="text-align: center;">  
-            <div class="container"> 
-
-                <label for="nombre">*Nombre: </label>
-                <input type="text" name="Name" id="nombre" required>
-
-                <label for="apellidos">*Apellidos: </label>
-                <input type="text" name="lastname" id="apellidos" required>
-
-                <label for="usuario">*Username : </label>   
-                <input type="text" name="username" id="usuario" required>  
-
-                <label for="contraseña">*Password : </label>   
-                <input type="password" name="password" id="contraseña" required>  
-
-                <label for="correo">*Correo: </label>
-                <input type="email" name="mail" id="correo" required>
-
-                <label for="fechanacimiento">*Fecha de Nacimiento: </label>
-                <input type="date" name="birthdate" id="fechanacimiento" required>
-
-                <br><br><input type="checkbox" checked="checked"> ¿Desea recibir un correo con las ultimas noticias sobre La Roja?  
-                <br><button type="submit">Registrarse</button>    
-
-            </div>   
-        </form>
-    </div>  
 </body>
-<footer>
-    <br><br><p style="font-size: 20px; border: 5px solid black; padding: 20px; background-color: rgba(0, 0, 0, 0.719); text-align: center; color: white;">
-        Todos los derechos reservados &copy;
-    </p>
-</footer>
+
 </html>

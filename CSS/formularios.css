@@ -1,13 +1,14 @@
 button {   
-    background-color: #e20d05;   
-    width: 30%;  
+     background-color: #e20d05;   
+     width: 100%;  
      color: orange;   
      padding: 15px;   
      margin: 10px 0px;   
      border: none;   
      cursor: pointer;
      text-align: center;   
-    }     
+}     
+
 input[type=text], input[type=password], input[type=email], input[type=date]{   
      width: 100%;   
      margin: 0 auto;  
@@ -15,15 +16,17 @@ input[type=text], input[type=password], input[type=email], input[type=date]{
      display: block;   
      border: 2px solid rgb(212, 15, 8);   
      box-sizing: border-box;   
- }  
+} 
+
 button:hover {   
      opacity: 0.7;   
- }   
+}   
+
 .cancelbtn {   
      width: auto;   
      padding: 10px 18px;  
      margin: 10px 5px;  
- }    
+}    
 .container {   
      padding: 25px;   
      background-color: rgba(1, 2, 19, 0.568);
