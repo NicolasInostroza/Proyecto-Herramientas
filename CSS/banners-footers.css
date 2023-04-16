@@ -1,7 +1,7 @@
 .header-container {
     display: flex;
-    background: rgb(51,112,212);
-    background: linear-gradient(90deg, rgba(51,112,212,1) 0%, rgba(30,40,213,1) 1%, rgba(29,32,217,1) 7%, rgba(195,33,33,0.969625350140056) 22%, rgba(147,13,13,0.9864320728291317) 91%);
+    background: rgba(51, 113, 212, 0.801);
+    background: linear-gradient(90deg, rgba(51, 113, 212, 0.767) 0%, rgba(30, 39, 213, 0.774) 1%, rgba(29, 32, 217, 0.795) 7%, rgba(195, 33, 33, 0.788) 22%, rgba(147, 13, 13, 0.774) 91%);
     justify-content: space-between;
     align-items: center;
     color: white;
