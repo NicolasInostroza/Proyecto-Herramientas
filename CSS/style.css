@@ -63,6 +63,62 @@ header, footer{
     grid-column: 1 / span 3;
 }
 
+#aside-nosotros{
+    display: grid; 
+    grid-template-rows: 1fr 1fr; 
+    grid-row-gap: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    width: 300px;
+    border: 0;
+}
+
+#cuadrante1{
+    grid-row: 1; 
+    border: 2px solid black; 
+    background-color: rgba(1, 2, 3, 0.473); 
+    border: 5px solid rgba(0, 0, 0, 0.699); 
+    text-align: center; 
+    padding: 10px;
+}
+
+#cuadrante2{
+    grid-row: 2; 
+    border: 2px solid black; 
+    background-color: rgba(1, 2, 3, 0.473); 
+    border: 5px solid rgba(0, 0, 0, 0.699); 
+    text-align: center; 
+    padding: 10px;
+}
+
+#aside-nosotros-derecho{
+    text-align: center; 
+    font-size: 15px;
+}
+
+#imagenes-nosotros{
+    border: 1px solid black; 
+    margin: auto; 
+    width: 180px; 
+    height: 180px;
+}
+
+#parrafo-historia{
+    text-align: justify; 
+    width: 800px; 
+    margin: 0 auto; 
+    font-size: 23px; 
+    border: 5px solid rgba(0, 0, 0, 0.699); 
+    color: rgb(243, 235, 235); 
+    padding: 30px;
+    background: rgba(2, 8, 130, 0.918);
+    background: radial-gradient(circle, rgba(2, 8, 130, 0.87) 86%, rgba(19, 16, 207, 0.897) 92%);
+}
+
+#eliminar{
+    border: 0; 
+    background-color: rgba(240, 248, 255, 0);
+}
+
 @media all (max-width: 600px)
 {
     aside, article{
