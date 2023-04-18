@@ -76,7 +76,7 @@ header, footer{
 
 .article-container-flex{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 @media all (max-width: 600px)
