@@ -7,9 +7,10 @@
     <title>Vive La Roja</title>
     <link rel="stylesheet" href="CSS/banners-footers.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/ids.css">
 </head>
 
-<body style="background-image: url('imagenes/laroja.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+<body style="background-image: url(imagenes/laroja.png)"wd>
     <div class="grid-container">
         <header class="header-container">
             <div class="logo-container">
@@ -23,32 +24,21 @@
         </header>
         <aside class="left" style="visibility: hidden;"></aside>
         <article id="eliminar">
-            <table style="margin: 0 auto; text-align: center; width: 100%; padding: 50px; background-image: url(imagenes/estadio.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;
-            margin: 20px; border: 2px solid black;">
-                <tr>
-                    <th>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ATXMJOEt6zc" title="YouTube video player" frameborder="20px" allow="accelerometer; 
+            <div class="article-container" id="background" style="background-image: url(imagenes/estadio.jpg);">
+                <div class="article-container-flex">
+                    <iframe width="500" height="290" src="https://www.youtube.com/embed/ATXMJOEt6zc" title="YouTube video player" frameborder="20px" allow="accelerometer; 
                         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </th>
-                    <th>
-                        <img src="imagenes/seleccionchilena.jpg" alt="Página en construcción" width="550px" height="320px" style="border: 2px solid white;">
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <p style="color: white; font-size: 23px;">
+                    <p>
                         Video resúmen de la final de Copa América 2015<br>
                         <b>Chile 0 (4) - Argentina 0 (1)</b><br>
                         Resumen extraído del canal <b>"Pasión por la Roja"</b>
-                        </p>
-                    </td>
-                    <td>
-                        <p style="color: white; font-size: 23px;">
-                        Escudo de la Federación de fútbol Chileno.                   
-                        </p>
-                    </td>
-                </tr>  
-            </table>
+                    </p>
+                </div>
+                <div class="article-container-flex">
+                    <img src="imagenes/seleccionchilena.jpg" alt="Página en construcción" id="imagen-historia">
+                    <p>Escudo de la Federación de fútbol Chileno.</p>
+                </div>
+            </div>
             <p id="parrafo-historia">
             La selección de fútbol chilena tiene una larga historia que se remonta al año 1910, cuando se fundó la Federación de Fútbol de Chile. 
             Desde entonces, la selección ha participado en varios torneos internacionales y ha obtenido algunos logros destacados.<br><br>

@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="CSS/formularios.css">
     <link rel="stylesheet" href="CSS/banners-footers.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/ids.css">
 </head>
 
-<body style="background-image: url('imagenes/laroja.png'); background-size: cover; background-repeat: no-repeat;">
+<body style="background-image: url('imagenes/laroja.png');">
     <div class="grid-container">
         <header class="header-container">
             <div class="logo-container">
@@ -22,9 +23,9 @@
                 <a class="nav-item" href="logearse.html">Logearse</a>
             </nav>
         </header>
-        <aside class="left" style="visibility: hidden;"></aside>
-        <article style="border: 0; background-color: rgba(240, 248, 255, 0);">
-            <form style="text-align: center;">  
+        <aside class="left" id="ocultar"></aside>
+        <article id="eliminar">
+            <form>  
                 <div class="container"> 
 
                     <label for="nombre">*Nombre: </label>
@@ -51,7 +52,7 @@
                 </div>   
             </form>
         </article>
-        <aside class="right" style="visibility: hidden;"></aside>
+        <aside class="right" id="ocultar"></aside>
         <footer>
             <p>
                 Todos los derechos reservados &copy;

@@ -1,3 +1,9 @@
+body{
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
 .grid-container{
     font-size: 25px;
     display: grid;
@@ -55,7 +61,6 @@
     border: 2px solid black; 
     background: rgba(33, 14, 138, 0.808);
     background: linear-gradient(90deg, rgba(33, 14, 138, 0.822) 0%, rgba(20, 18, 130, 0.658rgba(10, 15, 102, 0.658),102,1) 40%, rgba(13, 25, 103, 0.815) 57%, rgba(19, 37, 129, 0.801) 75%, rgba(12, 34, 121, 0.815) 85%, rgba(18, 47, 143, 0.829) 100%);
-    text-align: center; 
     color: white;
 }
 
@@ -63,60 +68,15 @@ header, footer{
     grid-column: 1 / span 3;
 }
 
-#aside-nosotros{
-    display: grid; 
-    grid-template-rows: 1fr 1fr; 
-    grid-row-gap: 10px;
-    background-color: rgba(240, 248, 255, 0);
-    width: 300px;
-    border: 0;
+.article-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
-#cuadrante1{
-    grid-row: 1; 
-    border: 2px solid black; 
-    background-color: rgba(1, 2, 3, 0.473); 
-    border: 5px solid rgba(0, 0, 0, 0.699); 
-    text-align: center; 
-    padding: 10px;
-}
-
-#cuadrante2{
-    grid-row: 2; 
-    border: 2px solid black; 
-    background-color: rgba(1, 2, 3, 0.473); 
-    border: 5px solid rgba(0, 0, 0, 0.699); 
-    text-align: center; 
-    padding: 10px;
-}
-
-#aside-nosotros-derecho{
-    text-align: center; 
-    font-size: 15px;
-}
-
-#imagenes-nosotros{
-    border: 1px solid black; 
-    margin: auto; 
-    width: 180px; 
-    height: 180px;
-}
-
-#parrafo-historia{
-    text-align: justify; 
-    width: 800px; 
-    margin: 0 auto; 
-    font-size: 23px; 
-    border: 5px solid rgba(0, 0, 0, 0.699); 
-    color: rgb(243, 235, 235); 
-    padding: 30px;
-    background: rgba(2, 8, 130, 0.918);
-    background: radial-gradient(circle, rgba(2, 8, 130, 0.87) 86%, rgba(19, 16, 207, 0.897) 92%);
-}
-
-#eliminar{
-    border: 0; 
-    background-color: rgba(240, 248, 255, 0);
+.article-container-flex{
+    text-align: center;
+    padding: 20px;
 }
 
 @media all (max-width: 600px)

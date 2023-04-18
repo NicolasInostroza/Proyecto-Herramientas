@@ -13,14 +13,14 @@
 .logo {
     width: 90px;
     height: 90px;
-    margin-right: 500px;
+    margin-right: 100px;
 }
 
 .nav {
     display: flex;
     align-items: center;
     width: 350px;
-    margin-left: 400px;
+    margin-left: 100px;
 }
   
 .nav-item {
