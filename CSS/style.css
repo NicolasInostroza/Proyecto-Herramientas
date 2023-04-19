@@ -2,22 +2,22 @@ body{
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
+    margin: 0;
 }
 
 .grid-container{
-    font-size: 25px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    gap: 10px;
 }
 
 .grid-container header{
-    border: 2px solid black;
+    border: 1px solid rgb(75, 1, 1);
     text-align: center;
     color: white;
     justify-content: space-around; 
     align-items: center;
+    margin: 0;
 }
 
 .grid-container article{
@@ -56,10 +56,10 @@ body{
 
 .grid-container footer{
     text-align: center;
-    padding: 23px;
-    font-size: 30px; 
-    border: 2px solid black; 
-    background: rgba(33, 14, 138, 0.808);
+    padding: 15px;
+    font-size: 25px; 
+    border: 5px solid rgb(35, 1, 128); 
+    background: rgb(33, 14, 138);
     background: linear-gradient(90deg, rgba(33, 14, 138, 0.822) 0%, rgba(20, 18, 130, 0.658rgba(10, 15, 102, 0.658),102,1) 40%, rgba(13, 25, 103, 0.815) 57%, rgba(19, 37, 129, 0.801) 75%, rgba(12, 34, 121, 0.815) 85%, rgba(18, 47, 143, 0.829) 100%);
     color: white;
 }
@@ -71,11 +71,9 @@ header, footer{
 .article-container{
     display: flex;
     justify-content: center;
-    margin: 20px;
 }
 
 .article-container-flex{
-    text-align: center;
     padding: 30px;
 }
 
@@ -83,6 +81,16 @@ header, footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container-flex{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media all (max-width: 600px)

@@ -1,7 +1,7 @@
 .header-container {
     display: flex;
-    background: rgba(51, 113, 212, 0.801);
-    background: linear-gradient(90deg, rgba(51, 113, 212, 0.767) 0%, rgba(30, 39, 213, 0.774) 1%, rgba(29, 32, 217, 0.795) 7%, rgba(195, 33, 33, 0.788) 22%, rgba(147, 13, 13, 0.774) 91%);
+    background: rgb(51, 113, 212);
+    background: linear-gradient(90deg, rgb(51, 113, 212) 0%, rgb(30, 39, 213) 1%, rgba(29, 32, 217, 0.795) 7%, rgb(195, 33, 33) 22%, rgb(147, 13, 13) 91%);
     color: white;
     padding: 20px;
 }
@@ -33,3 +33,4 @@
     padding: 17px;
     font-size: 25px;
 }
+

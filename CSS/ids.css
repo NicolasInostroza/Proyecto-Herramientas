@@ -32,7 +32,6 @@
 
 #imagenes-nosotros{
     border: 1px solid black; 
-    margin: auto; 
     width: 180px; 
     height: 180px;
 }
@@ -41,12 +40,13 @@
     text-align: justify; 
     width: 800px; 
     margin: 0 auto; 
-    font-size: 23px; 
+    font-size: 20px; 
     border: 5px solid rgba(0, 0, 0, 0.699); 
     color: rgb(243, 235, 235); 
     padding: 30px;
     background: rgba(2, 8, 130, 0.918);
     background: radial-gradient(circle, rgba(2, 8, 130, 0.87) 86%, rgba(19, 16, 207, 0.897) 92%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #eliminar{
@@ -59,6 +59,7 @@
     background-repeat: no-repeat; 
     background-position: center;
     border: 2px solid black;
+    margin: 20px;
 }
 
 #imagen-historia{
@@ -72,18 +73,43 @@
 }
 
 #cuadricula{
-    background-color: rgba(1, 2, 3, 0.473); 
+    background-color: rgba(1, 2, 3, 0.712); 
     border: 5px solid rgba(0, 0, 0, 0.699); 
     padding: 10px;
-    height: 96%;
+    margin: 20px;
+    height: 100%;
 }
 
 #p-justify{
-    text-align: justify; 
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#p-centrado{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #imagenes-nosotros-centrada{
     margin: 10px; 
     width: 180px; 
     height: 180px;
+}
+
+#eliminar-cuadrantes{
+    grid-column: 1 / span 3;
+}
+
+#separar{
+    justify-content: space-around;
+}
+
+#imagen-parrafo-nosotros{
+    width: 450px; 
+    height: 380px;
+    border: 1px solid black; 
+}
+
+#centrar-imagen{
+    margin: auto;
 }
