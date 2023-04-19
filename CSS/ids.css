@@ -70,3 +70,20 @@
 #ocultar{
     visibility: hidden;
 }
+
+#cuadricula{
+    background-color: rgba(1, 2, 3, 0.473); 
+    border: 5px solid rgba(0, 0, 0, 0.699); 
+    padding: 10px;
+    height: 96%;
+}
+
+#p-justify{
+    text-align: justify; 
+}
+
+#imagenes-nosotros-centrada{
+    margin: 10px; 
+    width: 180px; 
+    height: 180px;
+}

@@ -79,6 +79,12 @@ header, footer{
     padding: 30px;
 }
 
+.imagen-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media all (max-width: 600px)
 {
     aside, article{
