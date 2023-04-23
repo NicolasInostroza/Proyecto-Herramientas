@@ -58,8 +58,7 @@
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-    border: 2px solid black;
-    margin: 20px;
+    margin-bottom: 10px;
 }
 
 #imagen-historia{
@@ -88,6 +87,7 @@
 #p-centrado{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black
 }
 
 #imagenes-nosotros-centrada{
@@ -97,7 +97,7 @@
 }
 
 #eliminar-cuadrantes{
-    grid-column: 1 / span 3;
+    grid-column: 1 / -1;
 }
 
 #separar{
@@ -112,4 +112,12 @@
 
 #centrar-imagen{
     margin: auto;
+}
+
+#fondos{
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin: 0;
+    width: 100%;
 }
