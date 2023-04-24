@@ -17,7 +17,6 @@ body{
     color: white;
     justify-content: space-around; 
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .grid-container article{
@@ -59,7 +58,6 @@ body{
     background: rgb(33, 14, 138);
     background: linear-gradient(90deg, rgba(33, 14, 138, 0.822) 0%, rgba(20, 18, 130, 0.658rgba(10, 15, 102, 0.658),102,1) 40%, rgba(13, 25, 103, 0.815) 57%, rgba(19, 37, 129, 0.801) 75%, rgba(12, 34, 121, 0.815) 85%, rgba(18, 47, 143, 0.829) 100%);
     color: white;
-    margin-top: 10px;
 }
 
 header, footer{

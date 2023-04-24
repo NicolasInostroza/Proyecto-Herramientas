@@ -58,7 +58,7 @@
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-    margin-bottom: 10px;
+    border: 1px solid rgba(99, 13, 13, 0.541);
 }
 
 #imagen-historia{
