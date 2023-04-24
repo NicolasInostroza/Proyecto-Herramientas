@@ -97,7 +97,7 @@
 }
 
 #eliminar-cuadrantes{
-    grid-column: 1 / -1;
+    grid-column: 1 / span 3;
 }
 
 #separar{
