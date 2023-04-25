@@ -25,7 +25,7 @@
             </nav>
         </header>
         <article id="eliminar-cuadrantes">
-            <div class="article-container" id="background" style="padding: 30px;">
+            <div class="article-container" id="background">
                 <div class="card" style="background-color:#ffffff;">
                     <div class="card-body">
                         <div id="carouselExampleCaptions" class="carousel slide">
@@ -39,12 +39,11 @@
                                     <p id="p-centrado">Escudo de la Federación de fútbol Chileno.</p><br>
                                 </div>
                                 <div class="carousel-item">
-                                    <iframe width="700" height="450" src="https://www.youtube.com/embed/ATXMJOEt6zc" title="YouTube video player" frameborder="20px" allow="accelerometer; 
+                                    <iframe width="950" height="650" src="https://www.youtube.com/embed/ATXMJOEt6zc" title="YouTube video player" frameborder="20px" allow="accelerometer; 
                                     autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 2px solid white"></iframe>
                                     <p id="p-centrado">
                                     Resumen final "Copa América Chile 2015"<br>
-                                    <b>Chile 0 (4) - Argentina 0 (1)</b><br>
-                                    Video extraido del canal "Pasión por la Roja"<br><br>
+                                    <b>Chile 0 (4) - Argentina 0 (1)</b><br><br>
                                     </p>
                                 </div>
                             </div>
@@ -59,20 +58,31 @@
                           </button>
                     </div>
                 </div>
-                <div class="card  ">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                      <img src="imagenes/Chile_VS._Australia_(1cropped).jpg" class="img-fluid" />
+                <div class="card-deck d-flex flex-column" id="espacio_cartas_iz">
+                    <div class="card" id="tamaño_cartas">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="text-align: center;">
+                            <img src="imagenes/Chile_VS._Australia_(1cropped).jpg" class="img-fluid" style="width: 290px; height: 240px; margin: 10px; border: 3px solid rgba(0, 0, 0, 0.781);">
+                        </div>
+                      
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Futuro incierto en el conjunto de los VerdiBlancos para el capitán Claudio Bravo</b></h5>
+                            <p class="card-text" style="font-size: 20px;">
+                                El arquero no cumplirá la cantidad de partidos con los que aseguraba su continuidad en los verdiblancos. Con esto, su futuro queda en el aire.
+                            </p>
+                      
+                            <button type="button" class="btn btn-primary">Leer más</button>
+                        </div>
                     </div>
-                  
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the
-                        card's content.
-                      </p>
-                  
-                      <button type="button" class="btn btn-primary">Button</button>
-                    </div>
+                    <div class="card" id="espacio_cartas_up">
+                        <div class="card-body" id="tamaño_cartas">
+                            <h5 class="card-title"><b>Con todo a por las proximas fechas de la FIFA</b></h5>
+                            <p class="card-text" style="font-size: 15px;">
+                            La selección chilena apunta con todo a la próxima Copa América 2024 y a las clasificatorias Mundial FIFA 2026
+                            </p>
+                      
+                          <button type="button" class="btn btn-primary">Leer más</button>
+                        </div>
+                      </div>
                 </div>
             </div>
             <div class="article-container" id="background" style="background-image: url(imagenes/estadio.jpg); padding: 30px;">

@@ -72,7 +72,6 @@ header, footer{
 
 .article-container-flex{
     padding: 30px;
-    margin: 0;
 }
 
 .imagen-container{
@@ -99,7 +98,7 @@ header, footer{
 
 .carousel {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 950px;
 }
 
 @media all (max-width: 600px)
