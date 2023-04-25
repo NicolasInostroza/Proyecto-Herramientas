@@ -58,13 +58,13 @@
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-    border: 2px solid black;
-    margin: 20px;
+    border: 1px solid rgba(99, 13, 13, 0.541);
+    padding: 30px;
 }
 
 #imagen-historia{
-    width: 500px; 
-    height: 290px; 
+    width: 950px; 
+    height: 650px; 
     border: 2px solid white;
 }
 
@@ -88,10 +88,11 @@
 #p-centrado{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black
 }
 
 #imagenes-nosotros-centrada{
-    margin: 10px; 
+    margin: 20px; 
     width: 180px; 
     height: 180px;
 }
@@ -112,4 +113,24 @@
 
 #centrar-imagen{
     margin: auto;
+}
+
+#fondos{
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin: 0;
+    width: 100%;
+}
+
+#espacio_cartas_iz{
+    margin-left: 20px;
+}
+
+#espacio_cartas_up{
+    margin-top: 10px;
+}
+
+#tamaño_cartas{
+    max-width: 400px;
 }

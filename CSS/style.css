@@ -17,19 +17,15 @@ body{
     color: white;
     justify-content: space-around; 
     align-items: center;
-    margin: 0;
 }
 
 .grid-container article{
     justify-content: center;
-    border: 2px solid black;
     text-align: justify; 
     width: auto;
     font-size: 23px; 
-    background-color: rgba(1, 2, 3, 0.473); 
-    border: 5px solid rgba(0, 0, 0, 0.699); 
     color: rgb(243, 235, 235); 
-    padding: 10px;
+    margin: 0;
 }
 
 .grid-container aside.left{
@@ -71,6 +67,7 @@ header, footer{
 .article-container{
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .article-container-flex{
@@ -91,6 +88,17 @@ header, footer{
 .footer-container-flex{
     font-size: 13px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carousel-item {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel {
+    margin: 0 auto;
+    max-width: 950px;
 }
 
 @media all (max-width: 600px)

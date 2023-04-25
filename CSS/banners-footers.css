@@ -1,7 +1,7 @@
 .header-container {
     display: flex;
     background: rgb(51, 113, 212);
-    background: linear-gradient(90deg, rgb(51, 113, 212) 0%, rgb(30, 39, 213) 1%, rgba(29, 32, 217, 0.795) 7%, rgb(195, 33, 33) 22%, rgb(147, 13, 13) 91%);
+    background: linear-gradient(90deg, rgb(51, 113, 212) 0%, rgb(30, 39, 213) 1%, rgb(29, 32, 217) 7%, rgb(195, 33, 33) 22%, rgb(147, 13, 13) 91%);
     color: white;
     padding: 20px;
 }
