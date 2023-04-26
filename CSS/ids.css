@@ -63,8 +63,8 @@
 }
 
 #imagen-historia{
-    width: 950px; 
-    height: 650px; 
+    width: 750px; 
+    height: 450px; 
     border: 2px solid white;
 }
 
@@ -88,7 +88,7 @@
 #p-centrado{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black
+    color: black;
 }
 
 #imagenes-nosotros-centrada{
@@ -132,5 +132,5 @@
 }
 
 #tamaño_cartas{
-    max-width: 400px;
+    max-width: 300px;
 }
