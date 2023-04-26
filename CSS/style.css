@@ -30,24 +30,16 @@ body{
 
 .grid-container aside.left{
     justify-content: center;
-    border: 2px solid black;
     text-align: justify; 
     font-size: 23px; 
-    background-color: rgba(1, 2, 3, 0.473); 
-    border: 5px solid rgba(0, 0, 0, 0.699); 
     color: rgb(243, 235, 235); 
-    padding: 10px;
 }
 
 .grid-container aside.right{
     justify-content: center;
-    border: 2px solid black;
     text-align: justify; 
     font-size: 23px; 
-    background-color: rgba(1, 2, 3, 0.473); 
-    border: 5px solid rgba(0, 0, 0, 0.699); 
     color: rgb(243, 235, 235); 
-    padding: 10px;
 }
 
 .grid-container footer{
@@ -98,7 +90,7 @@ header, footer{
 
 .carousel {
     margin: 0 auto;
-    max-width: 950px;
+    max-width: 750px;
 }
 
 @media all (max-width: 600px)

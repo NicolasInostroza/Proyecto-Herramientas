@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="CSS/banners-footers.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/ids.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
-<body style="background-image: url('imagenes/laroja.png');">
+<body style="background-color: #fcf6f2;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <div class="grid-container">
         <div id="eliminar-cuadrantes">
             <header class="header-container">
@@ -19,49 +21,60 @@
                         <img class="logo" src="imagenes/balon_copia.png">
                     </a>
                 </div>
-                <nav class="nav">
-                    <a class="nav-btn" href="Historia.html">Inicio</a>
-                    <a class="nav-btn" href="Nosotros.html">Nosotros</a>
-                    <a class="nav-btn" href="logearse.html">Logearse</a>
-                </nav>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <a type="button" class="btn btn-primary" href="Historia.html">Inicio</a>
+                    <a type="button" class="btn btn-primary" href="Nosotros.html">Nosotros</a>
+                    <a type="button" class="btn btn-primary" href="Logearse.html">Logearse</a>
+                </div>
             </header>
         </div>
-        <div id="eliminar-cuadrantes">
-            <article id="eliminar">
-                <div id="cuadricula">
-                    <div class="article-container">
-                        <div class="article-container-flex">
-                            <p id="p-justify" >Como página de la Selección Chilena, nos dedicamos a proporcionar información actualizada y completa sobre el equipo de fútbol más importante del país.<br><br>
+        <aside style="visibility: hidden;"></aside>
+        <article>
+            <div class="container-sm">
+                <div class="article-container-flex">
+                    <div class="card  ">
+                        <div class="card-body">
+                          <p class="card-text" id="p-justify">
+                            Como página de la Selección Chilena, nos dedicamos a proporcionar información actualizada y completa sobre el equipo de fútbol más importante del país.<br><br>
                             Nuestro objetivo es ofrecer a los fanáticos de la Roja y al público en general, todo lo relacionado con la selección, desde sus partidos y resultados hasta las noticias y novedades más recientes sobre sus jugadores y cuerpo técnico.<br><br>
                             También publicamos contenido histórico y estadístico sobre la Selección Chilena, para que los aficionados puedan conocer más sobre la trayectoria de la Roja en competencias internacionales y su evolución a lo largo de los años.<br><br>
                     
                             En resumen, nuestra página de la Selección Chilena es un lugar para todos aquellos que aman el fútbol y quieren estar al tanto de todo lo que sucede con la 
                             selección nacional de Chile. Aquí encontrarás información actualizada y análisis de todo lo relacionado con la Roja.
-                            </p><br>
+                          </p><br>
                         </div>
-                    </div>
-                    <div class="imagen-container">
-                        <img src="imagenes/escudo.png" id="imagenes-nosotros-centrada">
-                    </div>
-                </div>
-                <div id="cuadricula">
-                    <div class="article-container" id="separar">
-                        <div class="article-container-flex">
-                            <img src="imagenes/Alexis_Sánchez_2016.jpg" id="imagenes-nosotros">
-                            <p id="aside-nosotros-derecho">"Alexis Sánchez"</p>
-                        </div>
-                        <div class="article-container-flex">
-                            <img src="imagenes/Chile_VS._Australia_(1cropped).jpg" id="imagenes-nosotros">
-                            <p id="aside-nosotros-derecho">"Claudio Bravo"</p>
-                        </div>
-                        <div class="article-container-flex">
-                            <img src="imagenes/ivan-zamorano-chile-inter-de-milan-el-18-de-junio-de-1998-h9j07n.jpg" id="imagenes-nosotros">
-                            <p id="aside-nosotros-derecho">"BamBam Zamorano"</p>
+                        <div class="imagen-container">
+                            <img src="imagenes/escudo.png" id="imagenes-nosotros-centrada-escudo">
                         </div>
                     </div>
                 </div>
-            </article>
-        </div>
+            </div>
+        </article>
+        <aside class="right" style="max-width: 400px;">
+            <div class="d-flex flex-column">
+                <div class="article-container-flex">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple imagenes-nosotros-centrada" data-mdb-ripple-color="light" style="text-align: center;">
+                            <img src="imagenes/Alexis_Sánchez_2016.jpg" class="img-thumbnail" id="imagenes-nosotros-centrada">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text" id="p-centrado">
+                            "Alexis Sánchez"
+                            </p>
+                        </div>
+                        <div class="bg-image hover-overlay ripple imagenes-nosotros-centrada" data-mdb-ripple-color="light" style="text-align: center;">
+                            <img src="imagenes/ivan-zamorano-chile-inter-de-milan-el-18-de-junio-de-1998-h9j07n.jpg" class="img-thumbnail" id="imagenes-nosotros-centrada">
+                        </div>
+                        <div class="card-body" id="p-centrado">
+                            <p class="card-text">
+                            "BamBam Zamorano"
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </aside>
         <footer>
             <p>
                 Todos los derechos reservados &copy;

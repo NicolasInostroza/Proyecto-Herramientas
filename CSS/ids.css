@@ -63,8 +63,8 @@
 }
 
 #imagen-historia{
-    width: 950px; 
-    height: 650px; 
+    width: 750px; 
+    height: 450px; 
     border: 2px solid white;
 }
 
@@ -82,16 +82,23 @@
 
 #p-justify{
     text-align: justify;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black; 
 }
 
 #p-centrado{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black
+    color: black;
 }
 
 #imagenes-nosotros-centrada{
+    margin: 20px; 
+    width: 280px; 
+    height: 280px;
+}
+
+#imagenes-nosotros-centrada-escudo{
     margin: 20px; 
     width: 180px; 
     height: 180px;
@@ -132,5 +139,18 @@
 }
 
 #tamaño_cartas{
-    max-width: 400px;
+    max-width: 300px;
+}
+
+#imagen_noticia{
+    width: 190px; 
+    height: 180px; 
+    margin: 10px;
+}
+
+#footer-exclusivo{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
