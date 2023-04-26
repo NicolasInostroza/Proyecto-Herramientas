@@ -154,3 +154,11 @@
     bottom: 0;
     width: 100%;
 }
+
+#parrafo-2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagenes-carrosel{
+    height: 450px;
+}
