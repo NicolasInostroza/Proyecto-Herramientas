@@ -82,7 +82,8 @@
 
 #p-justify{
     text-align: justify;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black; 
 }
 
 #p-centrado{
@@ -92,6 +93,12 @@
 }
 
 #imagenes-nosotros-centrada{
+    margin: 20px; 
+    width: 280px; 
+    height: 280px;
+}
+
+#imagenes-nosotros-centrada-escudo{
     margin: 20px; 
     width: 180px; 
     height: 180px;
@@ -133,4 +140,17 @@
 
 #tamaño_cartas{
     max-width: 300px;
+}
+
+#imagen_noticia{
+    width: 190px; 
+    height: 180px; 
+    margin: 10px;
+}
+
+#footer-exclusivo{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

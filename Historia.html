@@ -18,11 +18,11 @@
             <div class="logo-container">
                 <img class="logo" src="imagenes/balon_copia.png">
             </div>
-            <nav class="nav">
-                <a class="nav-btn" href="Historia.html">Inicio</a>
-                <a class="nav-btn" href="Nosotros.html">Nosotros</a>
-                <a class="nav-btn" href="logearse.html">Logearse</a>
-            </nav>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <a type="button" class="btn btn-primary" href="Historia.html">Inicio</a>
+                <a type="button" class="btn btn-primary" href="Nosotros.html">Nosotros</a>
+                <a type="button" class="btn btn-primary" href="Logearse.html">Logearse</a>
+            </div>
         </header>
         <article id="eliminar-cuadrantes">
             <div class="article-container" id="background">
@@ -35,7 +35,7 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="imagenes/seleccionchilena.jpg" alt="Página en construcción" id="imagen-historia" class="d-block w-100">
+                                    <img src="imagenes/seleccionchilena.jpg" alt="Página en construcción" id="imagen-historia" class="d-block w-100 img-fluid">
                                     <p id="p-centrado">Escudo de la Federación de fútbol Chileno.</p><br>
                                 </div>
                                 <div class="carousel-item">
@@ -61,15 +61,14 @@
                 <div class="card-deck d-flex flex-column" id="espacio_cartas_iz">
                     <div class="card" id="tamaño_cartas">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="text-align: center;">
-                            <img src="imagenes/Chile_VS._Australia_(1cropped).jpg" class="img-fluid" style="width: 190px; height: 180px; margin: 10px; border: 3px solid rgba(0, 0, 0, 0.781);">
+                            <img src="imagenes/Chile_VS._Australia_(1cropped).jpg" class="img-thumbnail" id="imagen_noticia">
                         </div>
                       
                         <div class="card-body">
                             <h5 class="card-title"><b>Futuro incierto en el conjunto del Real Betis para el capitán Claudio Bravo</b></h5>
                             <p class="card-text" style="font-size: 13px;">
                                 El arquero no cumplirá la cantidad de partidos con los que aseguraba su continuidad en los verdiblancos. Con esto, su futuro queda en el aire.
-                            </p>
-                      
+                            </p>                     
                             <button type="button" class="btn btn-primary">Leer más</button>
                         </div>
                     </div>
