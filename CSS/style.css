@@ -93,12 +93,3 @@ header, footer{
     max-width: 750px;
 }
 
-@media all (max-width: 600px)
-{
-    aside, article{
-        grid-column: 1/3;
-    }
-    .grid-container{
-        grid-template-rows: repeat(3, 100px);
-    }
-}
