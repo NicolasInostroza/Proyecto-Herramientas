@@ -36,19 +36,6 @@
     height: 180px;
 }
 
-#parrafo-historia{
-    text-align: justify; 
-    width: 800px; 
-    margin: 0 auto; 
-    font-size: 20px; 
-    border: 5px solid rgba(0, 0, 0, 0.699); 
-    color: rgb(243, 235, 235); 
-    padding: 30px;
-    background: rgba(2, 8, 130, 0.918);
-    background: radial-gradient(circle, rgba(2, 8, 130, 0.87) 86%, rgba(19, 16, 207, 0.897) 92%);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 #eliminar{
     border: 0; 
     background-color: rgba(240, 248, 255, 0);

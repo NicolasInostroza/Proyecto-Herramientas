@@ -1,0 +1,20 @@
+@mixin FontStyle{
+    font-size: 20px;
+    color: rgb(243, 235, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@mixin Background{
+    text-align: justify;
+    width: 800px;
+    background: rgba(2, 8, 130, 0.918);
+    background: radial-gradient(circle, rgba(2, 8, 130, 0.87) 86%, rgba(19, 16, 207, 0.897) 92%);
+    border: 5px solid rgba(0, 0, 0, 0.699);
+    margin: 0 auto;  
+    padding: 30px;
+}
+
+h1{
+    @include FontStyle();
+    @include Background();   
+}
