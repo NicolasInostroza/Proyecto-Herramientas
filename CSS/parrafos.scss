@@ -1,4 +1,6 @@
-@mixin FontStyle{
+@import "otros";
+
+@mixin FontStyle($color){
     font-size: 20px;
     color: rgb(243, 235, 235);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -15,6 +17,9 @@
 }
 
 h1{
-    @include FontStyle();
-    @include Background();   
+    @include FontStyle(white);   
+}
+
+.cont{
+    @include Background();
 }

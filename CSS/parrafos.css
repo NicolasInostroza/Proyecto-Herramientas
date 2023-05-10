@@ -1,7 +1,16 @@
+h2 {
+  font-size: 20px;
+  color: rgb(245, 12, 12);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 h1 {
   font-size: 20px;
   color: rgb(243, 235, 235);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cont {
   text-align: justify;
   width: 800px;
   background: rgba(2, 8, 130, 0.918);

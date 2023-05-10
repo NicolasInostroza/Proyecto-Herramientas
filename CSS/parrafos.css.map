@@ -1,1 +1,1 @@
-{"version":3,"sources":["parrafos.scss","parrafos.css"],"names":[],"mappings":"AAgBA;EAfI,eAAA;EACA,yBAAA;EACA,sHAAA;EAIA,mBAAA;EACA,YAAA;EACA,kCAAA;EACA,4FAAA;EACA,sCAAA;EACA,cAAA;EACA,aAAA;ACFJ","file":"parrafos.css"}
+{"version":3,"sources":["_otros.scss","parrafos.css","parrafos.scss"],"names":[],"mappings":"AAAA;EACI,eAAA;EACA,uBAAA;EACA,sHAAA;ACCJ;;ACcA;EAfI,eAAA;EACA,yBAAA;EACA,sHAAA;ADKJ;;ACYA;EAbI,mBAAA;EACA,YAAA;EACA,kCAAA;EACA,4FAAA;EACA,sCAAA;EACA,cAAA;EACA,aAAA;ADKJ","file":"parrafos.css"}
