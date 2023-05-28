@@ -19,10 +19,15 @@
             <div class="logo-container">
                 <img class="logo" src="imagenes/balon_copia.png">
             </div>
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <a type="button" class="btn btn-primary" href="Historia.html">Inicio</a>
-                <a type="button" class="btn btn-primary" href="Nosotros.html">Nosotros</a>
-                <a type="button" class="btn btn-primary" href="Logearse.html">Logearse</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menú</button>
+                <div class="dropdown-content">
+                    <a type="button" class="dropbtn" href="Historia.html">Inicio</a>
+                    <a type="button" class="dropbtn" href="Nosotros.html">Nosotros</a>
+                    <button type="button" class="dropbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Logearse
+                    </button>
+                </div>
             </div>
         </header>
         <article id="eliminar-cuadrantes">
@@ -52,6 +57,34 @@
 
                 </div>   
             </form>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;">Logearse</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body container-form-modal">
+                        <div class="mb-3">
+                            <label class="form-label">Nombre de Usuario</label>
+                            <input type="text" placeholder="Enter Username" name="username" required> 
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Contraseña</label><br> 
+                            <input type="password" placeholder="Enter Password" name="password" required>
+                        </div>
+                        <div>
+                            <button type="submit">Login</button>
+                            <br><input type="checkbox" checked="checked"> Recuerdame
+                        </div>
+                        <div>
+                            <p>¿No tienes cuenta? Registrate!</p>
+                            <button onclick="window.location.href='registro.html'">Registrarse</button> 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </article>
         <aside class="right" id="ocultar"></aside>
         <footer>

@@ -34,5 +34,11 @@ button:hover {
      color: white;
      margin: 20px auto;
      text-align: justify; 
-     width: 400px;
-}  
+     width: 600px;
+}
+
+.container-form-modal {   
+     padding: 25px;   
+     color: black;
+     text-align: justify; 
+} 
