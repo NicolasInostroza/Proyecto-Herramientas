@@ -31,14 +31,17 @@
             </div>
         </header>
         <article id="eliminar-cuadrantes">
-            <form>  
+            <form action="usuarios/crear.php" method="POST">  
                 <div class="container-form"> 
 
                     <label for="nombre">*Nombre: </label>
                     <input type="text" name="Name" id="nombre" required>
 
-                    <label for="apellidos">*Apellidos: </label>
-                    <input type="text" name="lastname" id="apellidos" required>
+                    <label for="apellido">*Apellidos: </label>
+                    <input type="text" name="lastname" id="apellido" required>
+
+                    <label for="rut">*Rut: </label>
+                    <input type="text" name="dni" id="rut" required>
 
                     <label for="usuario">*Username : </label>   
                     <input type="text" name="username" id="usuario" required>  
