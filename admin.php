@@ -1,5 +1,5 @@
 <?php
-    include("conexion.php");
+    include_once "DB/conexion.php";
 
     $sql = "SELECT * FROM usuarios";
     $query = mysqli_query($conexion, $sql);
@@ -67,8 +67,8 @@
                                     <th><?php echo str_repeat("*", strlen($row['contraseña']))?></th>
                                     <th><?php echo $row['correo']?></th>
                                     <th><?php echo $row['fecha_nac']?></th>
-                                    <th><a href="usuarios/modificar.php?id=<?php echo $row['id']?>" class="btn btn-primary">Modificar</a></th>
-                                    <th><a href="usuarios/eliminar?id=<?php echo $row['id']?>" class="btn btn-danger">Eliminar</a></th>
+                                    <th><a href="actualizar.php?id=<?php echo $row['id']?>" class="btn btn-primary">Modificar</a></th>
+                                    <th><a href="usuarios/eliminar.php?id=<?php echo $row['id']?>" class="btn btn-danger">Eliminar</a></th>
                                 </tr>
                             <?php
                                 }
