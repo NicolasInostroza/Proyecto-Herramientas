@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,11 +29,15 @@
                 <div class="dropdown">
                     <button class="dropbtn">Menú</button>
                     <div class="dropdown-content">
-                        <a type="button" class="dropbtn" href="index.html">Inicio</a>
-                        <a type="button" class="dropbtn" href="Nosotros.html">Nosotros</a>
+                        <a type="button" class="dropbtn" href="index.php">Inicio</a>
+                        <a type="button" class="dropbtn" href="Nosotros.php">Nosotros</a>
+                        <?php if (isset($_SESSION['usuario'])){?>
+                        <a type="button" class="dropbtn" href="logout.php">Logout</a>
+                        <?php }else{?>
                         <button type="button" class="dropbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Logearse
                         </button>
+                        <?php }?>
                     </div>
                 </div>
             </header>
@@ -77,7 +85,7 @@
                         </div>
                         <div>
                             <p>¿No tienes cuenta? Registrate!</p>
-                            <button onclick="window.location.href='registro.html'">Registrarse</button> 
+                            <button onclick="window.location.href='registro.php'">Registrarse</button> 
                         </div>
                     </div>
                   </div>

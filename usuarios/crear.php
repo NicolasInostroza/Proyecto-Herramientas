@@ -1,5 +1,5 @@
 <?php
-
+    session_start();
     include_once "../DB/conexion.php";
 
     $nombre = $_POST['nombre'];
@@ -17,7 +17,7 @@
     $query = mysqli_query ($conexion, $sql); 
 
     if ($query) {
-        Header("Location: ../index.html");
+        Header("Location: ../index.php");
         exit();
     } 
 ?>

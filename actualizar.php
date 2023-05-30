@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include_once "DB/conexion.php";
 
     $id = $_GET['id'];
@@ -32,11 +33,15 @@
             <div class="dropdown">
                 <button class="dropbtn">Menú</button>
                 <div class="dropdown-content">
-                    <a type="button" class="dropbtn" href="index.html">Inicio</a>
-                    <a type="button" class="dropbtn" href="Nosotros.html">Nosotros</a>
+                    <a type="button" class="dropbtn" href="index.php">Inicio</a>
+                    <a type="button" class="dropbtn" href="Nosotros.php">Nosotros</a>
+                    <?php if (isset($_SESSION['usuario'])){?>
+                        <a type="button" class="dropbtn" href="logout.php">Logout</a>
+                    <?php }else{?>
                     <button type="button" class="dropbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Logearse
                     </button>
+                    <?php }?>
                 </div>
             </div>
         </header>
@@ -67,7 +72,19 @@
                     <label>*Fecha de Nacimiento: </label>
                     <input type="date" name="fecha_nac" id="fecha_nac" value="<?php echo $row['fecha_nac']?>">
 
-                    <br><br><button type="submit">Actualizar</button>    
+                    <br><div class="form-check form-switch">
+
+                        <?php if($row['is_admin'] == 1){
+                            ?><input class="form-check-input" type="checkbox" role="switch" id="is_admin" name="is_admin" value="1" checked>
+                        <?php }
+                        else{
+                            ?><input class="form-check-input" type="checkbox" role="switch" id="is_admin" name="is_admin" value="0">
+                        <?php  }?>
+
+                        <label class="form-check-label" for="flexSwitchCheckDefault">ADMIN</label>
+                    </div>
+
+                    <br><button type="submit">Actualizar</button>    
 
                 </div>   
             </form>
@@ -93,7 +110,7 @@
                         </div>
                         <div>
                             <p>¿No tienes cuenta? Registrate!</p>
-                            <button onclick="window.location.href='registro.html'">Registrarse</button> 
+                            <button onclick="window.location.href='registro.php'">Registrarse</button> 
                         </div>
                     </div>
                   </div>

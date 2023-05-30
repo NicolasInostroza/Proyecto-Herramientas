@@ -1,5 +1,5 @@
 <?php
-
+    session_start();
     include_once "../DB/conexion.php";
 
     $id = $_GET['id'];
