@@ -2,6 +2,7 @@
 
     include_once "../DB/conexion.php";
 
+    $id = $_POST['id'];
     $nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
     $rut = $_POST['rut'];

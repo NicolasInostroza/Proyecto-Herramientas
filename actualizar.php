@@ -44,6 +44,8 @@
             <form action="usuarios/modificar.php" method="POST">  
                 <div class="container-form"> 
 
+                    <input type="hidden" name="id" value="<?php echo $row['id']?>">
+
                     <label>*Nombre: </label>
                     <input type="text" name="nombre" id="nombre" value="<?php echo $row['nombre']?>">
 
