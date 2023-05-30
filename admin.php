@@ -78,7 +78,7 @@
                 </div>
             </div>
         </article>
-        <footer>
+        <footer id="footer-exclusivo">
             <p>
                 Todos los derechos reservados &copy;
             </p>
