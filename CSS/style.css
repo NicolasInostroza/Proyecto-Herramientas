@@ -9,6 +9,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
+    min-height: calc(100% - 100px);
 }
 
 .grid-container header{
@@ -22,8 +23,7 @@ body{
 .grid-container article{
     justify-content: center;
     text-align: justify; 
-    width: auto;
-    font-size: 23px; 
+    width: 100%;
     color: rgb(243, 235, 235); 
     margin: 0;
 }
@@ -50,6 +50,10 @@ body{
     background: rgb(33, 14, 138);
     background: linear-gradient(90deg, rgba(33, 14, 138, 0.822) 0%, rgba(20, 18, 130, 0.658rgba(10, 15, 102, 0.658),102,1) 40%, rgba(13, 25, 103, 0.815) 57%, rgba(19, 37, 129, 0.801) 75%, rgba(12, 34, 121, 0.815) 85%, rgba(18, 47, 143, 0.829) 100%);
     color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 header, footer{
