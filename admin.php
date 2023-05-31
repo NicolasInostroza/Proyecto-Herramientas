@@ -115,7 +115,7 @@
                 </div>
               </div>
         </article>
-        <footer id="footer-exclusivo">
+        <footer>
             <p>
                 Todos los derechos reservados &copy;
             </p>
