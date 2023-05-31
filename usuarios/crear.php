@@ -12,7 +12,7 @@
 
 // Consulta SQL para insertar los datos en la tabla
 
-    $sql = "INSERT INTO usuarios VALUES ('', '$nombre', '$apellido', '$rut', '$username', '$contraseña', '$correo', '$fecha_nac')";
+    $sql = "INSERT INTO usuarios VALUES ('', '$nombre', '$apellido', '$rut', '$username', '$contraseña', '$correo', '$fecha_nac', '')";
 
     $query = mysqli_query ($conexion, $sql); 
 
