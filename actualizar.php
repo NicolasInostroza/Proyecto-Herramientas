@@ -26,25 +26,33 @@
 <body style="background-color: #fcf6f2;">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <div class="grid-container">
-        <header class="header-container">
-            <div class="logo-container">
-                <img class="logo" src="imagenes/balon_copia.png">
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Menú</button>
-                <div class="dropdown-content">
-                    <a type="button" class="dropbtn" href="index.php">Inicio</a>
-                    <a type="button" class="dropbtn" href="Nosotros.php">Nosotros</a>
-                    <?php if (isset($_SESSION['usuario'])){?>
-                        <a type="button" class="dropbtn" href="logout.php">Logout</a>
-                    <?php }else{?>
-                    <button type="button" class="dropbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Logearse
-                    </button>
-                    <?php }?>
+        <header class="header-container sticky-top">
+                <div class="logo-container">
+                    <img class="logo" src="imagenes/balon_copia.png">
                 </div>
-            </div>
-        </header>
+                <ul class="nav nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.php" id="texto_nav">Inicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Nosotros.php" id="texto_nav">Nosotros</a>
+                    </li>
+                        <?php if (isset($_SESSION['usuario'])){?>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" id="texto_nav"><?php $nombre = $_SESSION['usuario']->nombre;  echo "$nombre"; ?></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="logout.php" id="texto_nav">Logout</a>
+                            </li>
+                        <?php }else{?>
+                    <li>
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" id="texto_nav">
+                            Logearse
+                        </a>
+                    </li>
+                    <?php }?>
+                </ul>
+            </header>
         <article id="eliminar-cuadrantes">
             <form action="usuarios/modificar.php" method="POST">  
                 <div class="container-form"> 
@@ -93,7 +101,7 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;">Logearse</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <a href="recuperar.php" class="modal-title fs-5" id="exampleModalLabel" style="color: black;">Olvide mi contraseña</a>
                     </div>
                     <div class="modal-body container-form-modal">
                         <div class="mb-3">
@@ -105,7 +113,7 @@
                             <input type="password" placeholder="Enter Password" name="password" required>
                         </div>
                         <div>
-                            <button type="submit">Login</button>
+                            <button type="submit" name="logeo">Login</button>
                             <br><input type="checkbox" checked="checked"> Recuerdame
                         </div>
                         <div>

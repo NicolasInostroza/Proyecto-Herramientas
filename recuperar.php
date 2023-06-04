@@ -1,7 +1,5 @@
 <?php
     session_start();
-    include_once "DB/conexion.php";
-    include_once "controlador.php";
 ?>
 
 <!DOCTYPE html>
@@ -50,31 +48,18 @@
         </header>
         <article id="eliminar-cuadrantes">
             <form action="usuarios/crear.php" method="POST">  
-                <div class="container-form"> 
-
-                    <label>*Nombre: </label>
-                    <input type="text" name="nombre" id="nombre" required>
-
-                    <label>*Apellidos: </label>
-                    <input type="text" name="apellido" id="apellido" required>
-
-                    <label>*Rut: </label>
-                    <input type="text" name="rut" id="rut" required>
-
-                    <label>*Username : </label>   
-                    <input type="text" name="username" id="username" required>  
-
-                    <label>*Password : </label>   
-                    <input type="password" name="contraseña" id="contraseña" required>  
+                <div class="container-form">  
 
                     <label>*Correo: </label>
-                    <input type="email" name="correo" id="correo" required>
+                    <input type="email" name="correo" id="correo">
 
-                    <label>*Fecha de Nacimiento: </label>
-                    <input type="date" name="fecha_nac" id="fecha_nac" required>
+                    <label>*Password: </label>   
+                    <input type="password" name="contraseña" id="contraseña">
+                    
+                    <label>*Repita Password : </label>   
+                    <input type="password" name="contraseña" id="contraseña">  
 
-                    <br><input type="checkbox" checked="checked"> ¿Desea recibir un correo con las ultimas noticias sobre La Roja?  
-                    <br><br><button type="submit">Registrarse</button>    
+                    <br><br><button type="submit" name="ingreso">Cambiar</button>    
 
                 </div>   
             </form>
