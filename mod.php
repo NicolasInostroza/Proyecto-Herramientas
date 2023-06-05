@@ -21,7 +21,7 @@
                 $row = $query[6];
                 if($row == $correo){
                     $sql = "UPDATE usuarios SET contraseña = '$contraseña' WHERE correo = '$correo'";
-                    $query = mysqli_query ($conexion, $sql2); 
+                    $query = mysqli_query ($conexion, $sql); 
                     if ($query) {
                         Header("Location: ../index.php");
                         exit();
