@@ -60,7 +60,7 @@
             </div>
             <ul class="nav nav-underline">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.php" id="texto_nav">Inicios</a>
+                    <a class="nav-link" aria-current="page" href="index.php" id="texto_nav">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Nosotros.php" id="texto_nav">Nosotros</a>

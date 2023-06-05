@@ -59,7 +59,7 @@
             </div>
             <ul class="nav nav-underline">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.php" id="texto_nav">Inicios</a>
+                    <a class="nav-link" aria-current="page" href="index.php" id="texto_nav">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Nosotros.php" id="texto_nav">Nosotros</a>
@@ -81,7 +81,7 @@
             </ul>
         </header>
         <article id="eliminar-cuadrantes">
-            <form action="usuarios/mod.php" method="POST">  
+            <form action="" method="POST">  
                 <div class="container-form">  
 
                     <label>*Correo: </label>
@@ -93,9 +93,12 @@
                     <label>*Repita Password : </label>   
                     <input type="password" name="contraseña2" id="contraseña2">  
 
-                    <br><br><button type="submit" name="ingreso">Cambiar</button>    
+                    <br><br><button type="submit" name="ingreso">Cambiar</button><br><br>
 
-                </div>   
+                    <?php
+                        include('mod.php');
+                    ?>  
+                </div> 
             </form>
         </article>
         <aside class="right" id="ocultar"></aside>
