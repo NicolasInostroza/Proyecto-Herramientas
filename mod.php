@@ -22,10 +22,7 @@
                 if($row == $correo){
                     $sql = "UPDATE usuarios SET contraseña = '$contraseña' WHERE correo = '$correo'";
                     $query = mysqli_query ($conexion, $sql); 
-                    if ($query) {
-                        Header("Location: ../index.php");
-                        exit();
-                    }
+                    echo "<p class='p-3 mb-2 bg-primary text-white' style='text-align: center;'>Se han aplicado los cambios</p>";
                 }
             }
         }
